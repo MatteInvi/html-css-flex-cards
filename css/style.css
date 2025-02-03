@@ -10,17 +10,20 @@
 .container{
     width: 80%;
     margin: 0 auto;
-    padding-top:40px ;
+    padding-top:40px;
+    overflow: auto;
 }
 
 /* formattazione titolo e paragrafo */
 #title{
     text-align: center;
+    font-size: 2em;   
     color:rgb(221, 8, 150);
 }
 
 .paragraph{
     margin: 30px 0;
+    text-align: center;
 }
 
 /* formattazione cards */
@@ -34,6 +37,7 @@
 .col{
     display: flex;
     color: white;
+    min-width: 310px;
     width: calc(90% / 1);
     background-color: rgba(0, 0, 0, 0.9);
     margin-bottom: 40px;
